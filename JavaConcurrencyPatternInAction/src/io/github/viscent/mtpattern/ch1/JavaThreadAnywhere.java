@@ -33,6 +33,7 @@ public class JavaThreadAnywhere {
 		private void doSomething(String message) {
 			System.out.println("The doSomething method was executed by thread:"
 			    + Thread.currentThread().getName());
+			
 			System.out.println("Do something with " + message);
 		}
 
