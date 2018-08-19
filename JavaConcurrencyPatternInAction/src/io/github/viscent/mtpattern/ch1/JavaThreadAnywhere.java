@@ -18,6 +18,7 @@ public class JavaThreadAnywhere {
 	public static void main(String[] args) {
 		System.out.println("The main method was executed by thread:"
 		    + Thread.currentThread().getName());
+		
 		Helper helper = new Helper("Java Thread AnyWhere");
 		helper.run();
 	}
